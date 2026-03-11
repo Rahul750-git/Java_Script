@@ -1,5 +1,9 @@
-let name2 = "Ram";
-let name1 = "shyam";
-if(name!=name1){
+function f3() {
+  let a = 10;
+  let b = 12;
+  let c = 15;
+  if (a > b && b < c) {
     alert("Done");
+    document.writeln(true);
+  } else document.writeln(false);
 }

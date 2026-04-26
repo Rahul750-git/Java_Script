@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: gray;
+}
+nav {
+  padding: 10px;
+  margin: 40px;
+}
+.container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 3px;
+}
+input {
+  margin: 10px;
+  border-radius: 15px;
+}
+button {
+  padding: 5px;
+  margin: 3px;
+  border-radius: 20px;
+  background-color: blue;
+  color: aliceblue;
+}
+h3 {
+  text-decoration: underline;
+  margin: 5px;
+}
+p {
+  margin: 3px;
+}

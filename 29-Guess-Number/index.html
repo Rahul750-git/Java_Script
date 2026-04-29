@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h2>Number guessing Game</h2>
+    <div>
+      <div class="container">
+        <p id="p">
+          Try and guess a random number between 1 and 100. <br />
+          you have 10 attempts to guess the right number.
+        </p>
+        <form action="">
+          <h1 class="h1">Guess a number</h1>
+          <input type="text" class="input" id="guessfield" />
+          <br />
+          <input type="submit" id="sub" />
+        </form>
+        <div class="resultParas">
+          <p>prevoius Guesses:<span class="guesses"></span></p>
+          <p>Guesses Remaining :<span class="lastresult">10</span></p>
+          <p class="lowOrHi"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

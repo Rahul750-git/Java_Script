@@ -16,7 +16,7 @@ let playGame = true;
 
 $(document).ready(function () {
     $("#sub").click(function () {
-        
+    })
 });
 
 function validateGuess(guess) {
